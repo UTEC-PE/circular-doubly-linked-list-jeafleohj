@@ -46,11 +46,11 @@ List<T>::List(){
 
 template <typename T>
 T List<T>::front(){
-	return start->data;
+	return start->data; // Falta validar si la lista está vacía
 }
 template <typename T>
 T List<T>::back(){
-	return start->prev->data;
+	return start->prev->data; // Falta validar si la lista está vacía
 }
 template <typename T>
 void List<T>::push_front(T value){
